@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@media only screen and (min-width: 1000px) {
+    .netflix {}
+    .mylist,
+    .home {
+        align-items: center;
+    }
+}
+
+.mylist,
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mylist>div,
+.home>div {
+    margin: 30px;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.movie>button {
+    margin-top: 20px;
+}
