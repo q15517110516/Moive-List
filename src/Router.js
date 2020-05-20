@@ -7,8 +7,8 @@ import MyList from './MyList';
 const BasicRouter = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path = "/" component ={Home}/>
-            <Route exact path = "/MyList" component = {MyList}/>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/MyList" component={MyList}/>
         </Switch>
     </BrowserRouter>
 )

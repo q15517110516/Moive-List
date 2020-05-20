@@ -1,7 +1,7 @@
 import {ADD_TO_LIST, REMOVE_FROM_LIST} from './Action_Type';
 
 
-const initialState ={
+const initialState={
     "mylist": [{
         "title": "Futurama",
         "id": 1,
@@ -36,7 +36,7 @@ const initialState ={
     ]
 }
 
-function reducer(state = initialState, action){
+function reducer(state=initialState, action){
     let indexrecom = state.recommendations.find((item) => item.id === action.id); 
     let indexlist = state.mylist.find((item) => item.id === action.id);
     switch(action.type){
