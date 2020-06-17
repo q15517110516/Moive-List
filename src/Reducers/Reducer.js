@@ -1,4 +1,4 @@
-import {ADD_TO_LIST, REMOVE_FROM_LIST} from './Action_Type';
+import {ADD_TO_LIST, REMOVE_FROM_LIST} from '../Actions/Action_Type';
 
 
 const initialState={

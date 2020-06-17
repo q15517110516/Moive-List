@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import './index.css';
 import {connect} from 'react-redux'
-import {addList} from './Action'; 
+import {addList} from './Actions/Action'; 
 
 
 

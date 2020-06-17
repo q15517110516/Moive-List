@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
-import {removeList} from './Action';
+import {removeList} from './Actions/Action';
 import {connect} from 'react-redux';
 
 
